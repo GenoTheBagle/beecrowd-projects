@@ -1,0 +1,9 @@
+n = []
+for _ in range(6): n.append(float(input()))
+
+t = 0
+for a in n:
+    if a > 0:
+        t += 1
+        
+print(f"{t} valores positivos")
